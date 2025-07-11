@@ -1,0 +1,38 @@
+{
+  "name": "bot-rutina",
+  "version": "1.0.0",
+  "description": "Bot automático para crear y gestionar rutinas diarias en Google Calendar",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc",
+    "dev": "ts-node --watch src/index.ts",
+    "clean": "rm -rf dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "google-calendar",
+    "automation",
+    "productivity",
+    "routine",
+    "scheduler",
+    "typescript"
+  ],
+  "author": "Tu Nombre",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tu-usuario/bot-rutina.git"
+  },
+  "dependencies": {
+    "googleapis": "^152.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.13",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
