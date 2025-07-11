@@ -18,12 +18,14 @@ Un bot automático que crea y gestiona tu rutina diaria en Google Calendar con b
 ## 🛠️ Instalación
 
 1. **Clona el repositorio**:
+
    ```bash
    git clone https://github.com/tu-usuario/bot-rutina.git
    cd bot-rutina
    ```
 
 2. **Instala las dependencias**:
+
    ```bash
    npm install
    ```
@@ -39,6 +41,7 @@ Un bot automático que crea y gestiona tu rutina diaria en Google Calendar con b
 ## 🔧 Configuración
 
 1. **Copia tus credenciales**:
+
    ```bash
    # Coloca tu archivo credentials.json en la raíz del proyecto
    # ⚠️ NUNCA subas este archivo a Git (ya está en .gitignore)
@@ -51,11 +54,13 @@ Un bot automático que crea y gestiona tu rutina diaria en Google Calendar con b
 ## 🚀 Uso
 
 Ejecuta el bot:
+
 ```bash
 npm run start
 ```
 
 La primera vez te pedirá autorización:
+
 1. Se abrirá un enlace en tu navegador
 2. Autoriza la aplicación
 3. Copia el código que te da Google
@@ -96,6 +101,7 @@ const bloques = [
 ### Cambiar duración de la rutina
 
 Modifica el `COUNT` en la regla de recurrencia:
+
 - `COUNT=20` = 4 semanas laborables
 - `COUNT=40` = 8 semanas laborables
 
@@ -120,6 +126,7 @@ Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) par
 ## 🆘 Soporte
 
 Si tienes problemas:
+
 1. Verifica que `credentials.json` esté en la raíz del proyecto
 2. Asegúrate de que la API de Google Calendar esté habilitada
 3. Comprueba que tu zona horaria sea correcta
